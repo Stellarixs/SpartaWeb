@@ -69,8 +69,8 @@ export default function Home() {
       
       {/* Content Sections */}
       <div className="max-w-7xl mx-auto px-4 py-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <SectionCard title="Divisions" description="Explore the various factions of Rome and choose your allegiance." link="/factions" icon="shield" />
-        <SectionCard title="Market" description="Trade goods, weapons, and resources in the Roman marketplace." link="/market" icon="coins" />
+        <SectionCard title="Divisions" description="Explore the various factions of Sparta and choose your allegiance." link="/factions" icon="shield" />
+        <SectionCard title="Market" description="Buy Ranks, and Lead divison." link="/market" icon="coins" />
         <SectionCard title="Updates" description="Stay informed about the latest game updates and events." link="/updates" icon="scroll" />
       </div>
     </div>

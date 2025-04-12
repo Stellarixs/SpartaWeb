@@ -52,20 +52,20 @@ const updatesData: Update[] = [
       "Spartan Families activity increase",
       "Skyllan Bloodline promotions and customs",
     ],
-    mainImage: "/placeholder.svg?height=600&width=1200",
+    mainImage: "/images/updates/frontid1.png",
     heroOverlay: true,
     quote: {
       text: "If you enjoy this week's Oracle or have any suggestions, DM the Head Oracle: aretesx.",
       author: "aretesx",
       role: "Head Oracle",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/images/updates/quote_id1.jpg",
     },
     sections: [
       {
         title: "Agoge Restructuring",
         content:
           "The Agoge, which is a key part of a young Spartan helot's journey, has been restructured following a decision by King Leonidas. The duration has officially been shortened from 3 weeks to 1 week, while also allowing helots to join divisions without passing the Agoge. This new approach aims to boost Sparta's growing activity and make integration into divisions more accessible.",
-        image: "/placeholder.svg?height=400&width=600",
+        image: "/images/updates/id1_2.png",
         alignment: "right",
         features: [
           {
@@ -89,7 +89,7 @@ const updatesData: Update[] = [
         title: "Divisional Changes",
         content:
           "Among the divisions, a new one has emerged—Skiritai—giving Spartans an opportunity to fulfil new and specialized duties. Alongside this, King Leonidas has appointed new divisional overseers to help strengthen and grow their divisions.",
-        image: "/placeholder.svg?height=400&width=600",
+        image: "/images/updates/id1_3.png",
         alignment: "left",
         features: [
           {
@@ -113,19 +113,19 @@ const updatesData: Update[] = [
         title: "Spartan Families",
         content:
           "Within the Spartan Families, significant developments have taken place. With the appointment of a new Families Manager, family activity has seen a noticeable rise, making it easier for Spartans to join and engage with the family of their choice. The Royal Atreus Family has also implemented a visual upgrade—Royal Capes are now granted to members above a certain rank, symbolizing their noble status and dominance among families.",
-        image: "/placeholder.svg?height=400&width=600",
+        image: "/images/updates/family_id1.png",
         alignment: "right",
       },
       {
         title: "Skyllan Bloodline",
         content:
           "Turning to the Skyllan Bloodline, recent changes are bringing prosperity and excitement. Following a promotional ceremony hosted by King Leonidas, all Spartans who attended were promoted, and a new Skyllan Council Member has taken their place among the leadership. Furthermore, new customs are rumored to be in development, offering Skyllans a wider variety of customization options than ever seen before in any bloodline.",
-        image: "/placeholder.svg?height=400&width=600",
+        image: "/images/updates/skyllan.png",
         alignment: "left",
       },
     ],
     ctaText: "Join Sparta",
-    ctaLink: "/join",
+    ctaLink: "https://www.roblox.com/groups/8202010/SPQR-Sparta#!/about",
   },
 ]
 

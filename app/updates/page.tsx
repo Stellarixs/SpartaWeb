@@ -27,7 +27,7 @@ const updatesData: Update[] = [
       "Spartan Families activity increase",
       "Skyllan Bloodline promotions and customs",
     ],
-    mainImage: "/placeholder.svg?height=600&width=1200",
+    mainImage: "/images/updates/id1_2.png",
   },
 ]
 

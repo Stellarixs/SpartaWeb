@@ -17,15 +17,15 @@ interface Update {
 const updatesData: Update[] = [
   {
     id: 1,
-    title: "Major Update: Battle of Actium",
-    date: "XV Kalendas Sextilis MMDCCLXXVI",
+    title: "Spartan Weekly Oracle",
+    date: "First Moon of Autumn, 480 BC",
     description:
-      "Experience the naval battle that changed the course of Roman history. New ships, naval combat mechanics, and historical characters have been added.",
+      "Gia Spartans, today we will be recapping everything that has happened over Sparta in the past few weeks: new divisional COs, changes within Spartan families, and updates to the Agoge.",
     features: [
-      "New naval combat system",
-      "Historical characters: Octavian, Mark Antony, and Cleopatra",
-      "10 new ship types with unique abilities",
-      "New campaign missions focused on the battle",
+      "Agoge restructured to 1 week duration",
+      "New Skiritai division established",
+      "Spartan Families activity increase",
+      "Skyllan Bloodline promotions and customs",
     ],
     mainImage: "/placeholder.svg?height=600&width=1200",
   },
@@ -33,41 +33,41 @@ const updatesData: Update[] = [
 
 export default function UpdatesPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-stone-950 text-stone-100">
       <Navbar />
 
       <div className="pt-20 pb-10 px-4 max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-gold mb-6 mt-10">Game Updates</h1>
-        <p className="text-xl text-gray-300 mb-12 max-w-3xl">
-          Stay informed about the latest updates, expansions, and events in the world of PJC.
+        <h1 className="text-4xl md:text-5xl font-bold text-amber-400 mb-6 mt-10">Spartan Updates</h1>
+        <p className="text-xl text-stone-300 mb-12 max-w-3xl">
+          Stay informed about the latest developments, promotions, and events in the world of Sparta.
         </p>
 
         <div className="space-y-16">
           {updatesData.map((item) => (
             <div
               key={item.id}
-              className="border border-red-900/50 rounded-lg overflow-hidden bg-gradient-to-b from-red-900/10 to-black hover:from-red-900/20 transition-all duration-300"
+              className="border border-amber-800/50 rounded-lg overflow-hidden bg-gradient-to-b from-amber-900/10 to-stone-950 hover:from-amber-900/20 transition-all duration-300"
             >
               <div className="grid md:grid-cols-5 gap-6">
                 <div className="md:col-span-2 relative h-60 md:h-full">
                   <Image src={item.mainImage || "/placeholder.svg"} alt={item.title} fill className="object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent md:bg-gradient-to-l md:from-transparent md:to-black/70"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-stone-950/70 to-transparent md:bg-gradient-to-l md:from-transparent md:to-stone-950/70"></div>
                 </div>
 
                 <div className="p-6 md:col-span-3 flex flex-col justify-between">
                   <div>
                     <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                      <h2 className="text-2xl font-bold text-gold">{item.title}</h2>
-                      <span className="text-gray-400 italic mt-2 md:mt-0">{item.date}</span>
+                      <h2 className="text-2xl font-bold text-amber-400">{item.title}</h2>
+                      <span className="text-stone-400 italic mt-2 md:mt-0">{item.date}</span>
                     </div>
 
-                    <p className="text-gray-300 mb-6">{item.description}</p>
+                    <p className="text-stone-300 mb-6">{item.description}</p>
 
-                    <h3 className="text-xl font-semibold text-gold mb-3">Key Features:</h3>
+                    <h3 className="text-xl font-semibold text-amber-400 mb-3">Key Updates:</h3>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 pl-5 mb-8">
                       {item.features.map((feat, idx) => (
-                        <li key={idx} className="text-gray-300 flex items-start">
-                          <span className="text-gold mr-2">•</span>
+                        <li key={idx} className="text-stone-300 flex items-start">
+                          <span className="text-amber-400 mr-2">•</span>
                           {feat}
                         </li>
                       ))}
@@ -75,8 +75,8 @@ export default function UpdatesPage() {
                   </div>
 
                   <Link href={`/updates/${item.id}`} className="self-start group">
-                    <button className="mt-2 bg-red-900 hover:bg-red-800 text-gold px-6 py-3 rounded border border-gold/30 transition-colors flex items-center">
-                      Read Full Update Notes
+                    <button className="mt-2 bg-amber-900 hover:bg-amber-800 text-amber-100 px-6 py-3 rounded border border-amber-400/30 transition-colors flex items-center">
+                      Read Full Oracle
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </button>
                   </Link>

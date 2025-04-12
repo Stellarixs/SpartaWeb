@@ -16,7 +16,7 @@ export default function FactionTable({ divisions }: FactionTableProps) {
           <tr className="bg-amber-900/30">
             <th className="border border-amber-800/50 px-4 py-2 text-left text-amber-400">Rank</th>
             <th className="border border-amber-800/50 px-4 py-2 text-left text-amber-400">Job</th>
-            <th className="border border-amber-800/50 px-4 py-2 text-left text-amber-400">Strength</th>
+            <th className="border border-amber-800/50 px-4 py-2 text-left text-amber-400">Requiremnts</th>
           </tr>
         </thead>
         <tbody>

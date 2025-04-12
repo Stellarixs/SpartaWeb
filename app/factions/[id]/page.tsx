@@ -195,7 +195,7 @@ export default function FactionDetailPage({ params }: PageProps) {
       longDescription:
         "The 300 Spartans, mostly known for the Battle of Thermoplyae. The Greek force was led by King Leonidas I of Sparta. Leonidas took a small force of 300 Spartan warriors, known for their discipline and military prowess. The Greeks chose to defend the narrow pass at Thermopylae, where Xerxes' vast army would be forced to funnel through, neutralizing their numerical advantage.For two days, the Greeks held their ground against waves of Persian attacks, including the elite Persian Immortals, until they were cowardly betrayed.The delay at Thermopylae allowed the Greeks to regroup and eventually defeat the Persians at the decisive battles of Salamis (naval) and Plataea.The story of the 300 Spartans has been celebrated in history, literature, and popular culture as an example of selfless sacrifice for freedom.",
       imageSrc: "/images/factions/300.webp",
-      showcaseImage: "/images/factions/300-showcase.png",
+      showcaseImage: "/images/factions/300-showcase.webp",
       equipment: [
         {
           rank: "Spartan Perioikoi",

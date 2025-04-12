@@ -23,8 +23,36 @@ export default function FactionDetailPage({ params }: PageProps) {
       imageSrc: "/images/factions/KPG.webp",
       showcaseImage: "/images/factions/KPG_SHOW.webp", // Add showcase image path
       divisions: [
-        { name: "XXXXXX", specialization: "XXXXXX", strength: "XXXXXX" },
-        { name: "XXXXXX", specialization: "XXXXXX", strength: "XXXXXX" },
+        { 
+          name: "CO", 
+          specialization: "Leads the division. Oversees all operations within the KPG. Responsible for officer selections and overall direction.", 
+          strength: "Handpicked by Leonidas. Must uphold loyalty, strategy, and leadership." 
+        },
+        { 
+          name: "XO", 
+          specialization: "Assists the CO. Hosts tryouts, training, practice inspections. Manages operations when KPG is full.", 
+          strength: "High activity and experience in combat. Must know formations, leading, and KPG structure." 
+        },
+        { 
+          name: "Senior Officer", 
+          specialization: "Recruits new Officers, oversees their performance. Responsible for keeping Officer corps elite.", 
+          strength: "Appointed by CO. Must understand full structure, training systems, and leadership." 
+        },
+        { 
+          name: "Officer", 
+          specialization: "Hosts training, raids, and helps soldiers improve. Teaches combat, formations, and discipline.", 
+          strength: "Selected by CO. Must lead with precision and help others improve." 
+        },
+        { 
+          name: "Senior Guard", 
+          specialization: "Veteran of the KPG. Trusted to protect the King closely.", 
+          strength: "Serve with consistency. Prove honor in training, raids, and guarding." 
+        },
+        { 
+          name: "Initial Guard", 
+          specialization: "Entry-level soldier in KPG. Guards the King. Learns basics.", 
+          strength: "Pass tryouts hosted by XO. Show loyalty and dedication." 
+        }
       ],
     },
 
